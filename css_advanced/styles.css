@@ -10,7 +10,7 @@
     display: flex;
     flex-direction: row;
     margin-left: 150px;
-    padding: 0px 0px;
+    
 }
 .nav-links ul{
     list-style: none;
@@ -164,4 +164,246 @@ h1 {
 .testimonials-section .highlight {
     color: #c271ff;
     font-weight: bold;
+}
+.popular-smiles{
+    margin-top: 50px;
+    margin-bottom: 50px;
+    max-width: 1440px;
+    
+}
+.popular-smiles h2{
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    width: 294px;
+    height: 40px;
+    margin: auto;
+    font-size: 32px;
+    
+    letter-spacing: 0px;
+    font-family:'Source Sans Pro', sans-serif;
+}
+ h2 .pop{
+    display: flex;
+    flex-direction: column;
+    color: #c271ff;
+    font-weight: bold;
+}
+ .bottom ul li{
+    margin-left: -37px;
+    display: flex;
+    height: 30px;
+    width: 30px;
+}
+.smiles{
+    display: flex;
+    max-width: 1440px;
+    flex-direction: row;
+    align-items: center;
+    gap: 60px;
+    margin-left: 50px;
+    margin-right: 30px;
+    margin-top: 20px;
+
+}
+.bottom h4{
+    margin-left: 15px;
+    margin-top: -20px;
+    height: 27;
+    width: 86;
+    color:#c271ff
+}
+.rating p{
+    margin-left: 199px;
+    margin-top: -22px;
+    color:#c271ff
+}
+
+
+.bottoms ul li{
+    margin-left: -37px;
+    display: flex;
+    height: 30px;
+    width: 30px;
+}
+.bottoms h4{
+    margin-left: 20px;
+    margin-top: -20px;
+    height: 27;
+    width: 86;
+    color:#c271ff
+}
+.ratings p{
+    margin-left: 199px;
+    margin-top: -22px;
+    color:#c271ff
+}
+
+.botto ul li{
+    margin-left: -37px;
+    display: flex;
+    height: 30px;
+    width: 30px;
+}
+.botto h4{
+    margin-left: 20px;
+    margin-top: -20px;
+    height: 27;
+    width: 86;
+    color:#c271ff
+}
+.ratti p{
+    margin-left: 199px;
+    margin-top: -22px;
+    color:#c271ff
+}
+
+.bott ul li{
+    margin-left: -37px;
+    display: flex;
+    height: 30px;
+    width: 30px;
+}
+.bott h4{
+    margin-left: 20px;
+    margin-top: -20px;
+    height: 27;
+    width: 86;
+    color:#c271ff
+}
+.ratt p{
+    margin-left: 199px;
+    margin-top: -22px;
+    color:#c271ff
+}
+
+.smiles{
+    display: flex;
+    flex-direction: row;
+    row-gap: 200px;
+
+}
+
+.boxes-container{
+    
+    background-color: #071629;
+    padding-top: 52px;
+    margin: none;
+    
+
+}
+.Free{
+    display: flex;
+    flex-wrap: nowrap;
+    flex-direction: row;
+    justify-content: center;
+    gap: 20px;
+    padding-left: 1px;
+
+    margin-bottom: 16px;
+}
+
+.boxes-container h3{
+color: #FFFFFF;
+font-size: 32px;
+font-family: 'Source Sans Pro', sans-serif;
+}
+.Free p{
+    color: #FFFFFF;
+}
+.boxes-container h2{
+    margin-left: 550px;
+    color: #FFFFFF;
+
+}
+
+.boxes-container button{
+     padding: 12px 30px;
+  font-size: 0.9rem;
+  background-color: #C271FF;
+  color: #FFFFFF;
+  border: none;
+  border-radius: 50px;
+  cursor: pointer;
+  margin-top: 220px;
+  margin-left: -1300px;
+  margin-bottom: 25px;
+  white-space: nowrap;
+
+}
+.Free > div{
+    padding: 15px;
+    border: 1px;
+    border: none;
+    width: 257;
+    height: 153;
+    text-align: center;
+}
+h2 .boxes-container{
+    color: #c271ff;
+    font-weight: bold;
+}
+.faq {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 50px 20px;
+}
+
+.faq h2 {
+  text-align: center;
+  margin-bottom: 40px;
+}
+
+.faq-columns {
+  display: flex;
+  justify-content: space-between;
+  gap: 40px;
+}
+
+.faq-column {
+  flex: 1;
+}
+
+.faq-item {
+  margin-bottom: 30px;
+}
+
+.faq-item h3 {
+  margin-bottom: 10px;
+  font-size: 1.1rem;
+}
+
+.faq-item p {
+  color: #555;
+  line-height: 1.5rem;
+}
+ .Footer {
+    display: flex;
+    
+    background-color: #071629;
+    max-width: 1440px;
+    height: 249px;
+    color: #FFFFFF;
+ }
+
+.Footer p{
+    display: flex;
+    flex-direction: row;
+    margin-top: 195px;
+    font-size: 12px;
+    letter-spacing: 0px;
+    opacity: 35.17%;
+    width: 96px;
+    height: 15px;
+    white-space: nowrap;
+}
+
+.brands{
+    display:inline-block;
+    max-width: 130px;
+    max-height: 30px;
+    gap: 20px;
+    padding: 0px 0px;
+    margin-top: 90px;
+    margin-left: 1070px;
 }
