@@ -377,33 +377,28 @@ h2 .boxes-container{
   color: #555;
   line-height: 1.5rem;
 }
- .Footer {
-    display: flex;
-    
+.Footer{
     background-color: #071629;
-    max-width: 1440px;
-    height: 249px;
-    color: #FFFFFF;
- }
-
-.Footer p{
     display: flex;
-    flex-direction: row;
-    margin-top: 195px;
-    font-size: 12px;
-    letter-spacing: 0px;
-    opacity: 35.17%;
-    width: 96px;
-    height: 15px;
-    white-space: nowrap;
+    flex-direction: column;
+    width: auto;
+    height: 250px;
+    color:#FFFFFF
 }
-
-.brands{
-    display:inline-block;
-    max-width: 130px;
-    max-height: 30px;
+.footer-logo{
+    margin-left: 150px;
+    padding-top: 120px;
+    height: 30px;
+}
+.brands {
+    display: flex;
+    margin-left: 1200px;
+    width: 130px;
     gap: 20px;
-    padding: 0px 0px;
-    margin-top: 90px;
-    margin-left: 1070px;
+}
+.copyrights{
+    text-align: center;
+    font-size: 15px;
+    opacity: 35.17%;
+    padding-top: 20px;
 }
